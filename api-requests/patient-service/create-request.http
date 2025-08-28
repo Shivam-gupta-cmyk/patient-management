@@ -1,0 +1,12 @@
+### POST Requests to create a patient
+
+POST http://localhost:4000/patient
+Content-Type: application/json
+
+{
+  "name": "Shivam Gupta Test Kafka",
+  "email": "shivam1234kafka@gmail.com",
+  "address": "Orai",
+  "dateOfBirth": "2000-09-16",
+  "registeredDate": "2024-12-09"
+}
